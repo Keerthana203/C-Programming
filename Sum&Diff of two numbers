@@ -1,0 +1,13 @@
+int main()
+{
+    int n, m;
+    float a, b;
+    scanf("%d %d", &n, &m);
+    int sum = n + m;
+    int diff = n - m; 
+    printf("%d %d\n", sum, diff);
+    
+    scanf("%f %f", &a, &b);
+    float sum1 = a + b;
+    float diff1 = a - b;
+    printf("%.1f %.1f", sum1, diff1); 
