@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-  if (n<9){
+  if (n<=9){
           if(n==1)
           printf("one");
           if(n==2)
